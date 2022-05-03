@@ -1,0 +1,13 @@
+message IMemoryProperties  {
+    string name = 1;
+    optional int32 type = 2;
+    optional int32 timestamp = 3;
+    optional int32 evaluation = 4;
+    optional int32 I = 5;
+}
+
+message ICodeletProperties {
+    string name = 1;
+    int32 activation = 2;
+    int32 timestamp = 3;
+}
